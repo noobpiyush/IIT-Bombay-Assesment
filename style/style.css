@@ -1,0 +1,64 @@
+/* Basic Styling - Add more as needed */
+body {
+    font-family: sans-serif;
+}
+.container {
+    /* max-width: 960px; */
+    /* margin: 20px auto; */
+}
+#toolbar {
+    margin-bottom: 10px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.tableContainer {
+    overflow-x: auto; /* Horizontal scroll */
+    /* max-width: 100%; Ensure it doesn't overflow the container */
+  
+}
+
+#toolbar{
+    display: flex;
+    margin-top: 10px;
+    gap: 2px;
+    justify-content: center;
+}
+
+#buttonE{
+    font-size: small;
+    max-width: 100%;
+    background-color: azure;
+}
+
+
+.rowTable{
+   width: 100%;
+
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column; /* Stack columns vertically */
+  }
+  
+  .table-responsive {
+      overflow-x: auto; /* Horizontal scroll if needed */
+  }
+  
+  @media (min-width: 768px) { /* For larger screens use a normal table */
+      .table-container {
+          flex-direction: row; /* Arrange columns horizontally */
+          display: table; /* Bootstrap requires display table to maintain some styles */
+      }
+  }
+
+.names{
+    /* display: flex; */
+    
+}
+
+th{
+    /* width: 100%; */
+}
